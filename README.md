@@ -12,6 +12,12 @@ A boilerplate project for setting up MySql, Node.JS and Docker in the dev enviro
 docker-compose up
 ```
 
+Call this endpoint to see if it works
+
+```
+localhost:3000/users
+```
+
 ## Alternative ways to run
 
 You can also run the app without docker, just update the `.env` file wtih the correct IP, port and credentials of a mysql server.
